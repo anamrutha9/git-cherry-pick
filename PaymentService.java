@@ -4,4 +4,8 @@ public class PaymentService {
         System.out.println("Processing payment...");
     }
 
+    public void handleTimeout() {
+        System.out.println("Payment timeout handled");
+    }
+
 }
